@@ -1,0 +1,12 @@
+{
+     "type": "record",
+     "namespace": "com.acaps.kafka.avro",
+     "name": "AcapsApplication",
+     "version": "1",
+     "fields": [
+       { "name": "appl_ref_num", "type": "string", "doc": "ACAPS Unique DERN" },
+       { "name": "appl_status", "type": "string", "doc": "ACAPS Current Status of the Application" },
+       { "name": "first_name", "type": "string", "doc": "First Name of Applicant" },
+       { "name": "last_name", "type": "string", "doc": "Last Name of Applicant" }
+     ]
+}
